@@ -10,17 +10,17 @@
 <body>
     <header>
         <div>
-            <img src="images/logo.jpg" alt="логотип УМКА" height="60">
+            <img src="images/logo.jpg" alt="логотип УМКА" id="logo">
             <h1>Українська молодіжна кліматична асоціація</h1>
         </div>
-        <nav>
+        <nav id="navigation">
             <a href="#about-us">Про нас</a>
             <a href="#projects">Проекти</a>
             <a href="#contacts">Контакти</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="about-us">
             <img src="images/photo-with-posters.jpg" alt="фотографія з постерами">
             <h2 id="about-us">Про нас</h2>
             <p><strong>УМКА</strong> - платформа для взаємодії та розвитку кліматичних активістів. 
@@ -32,11 +32,11 @@
             свідомість молодих людей на вільний творчий простір для 
             реалізації ідей сталості, взаємодопомоги та співпраці громад.</p>
         </section>
-        <section>
+        <section class="our-projects">
             <h2 id="projects">Наші проекти</h2>
             <hr>
             <article>
-                <img src="images/generation-e.jpg" alt="логотип Генерація Е" height="150">
+                <img src="images/generation-e.jpg" alt="логотип Генерація Е">
                 <h3>Генерація "Е"</h3>
                 <p>Тренінг тур по містах України, для об’ єднання та розвитку 
                 молодих команд кліматичних активістів, які готові втілювати 
@@ -44,7 +44,7 @@
             </article>
             <hr>
             <article>
-                <img src="images/climate-week.jpg" alt="логотип Тижня клімату" height="150">
+                <img src="images/climate-week.jpg" alt="логотип Тижня клімату">
                 <h3>Зміни себе а не клімат!</h3>
                 <p>Як українські банани, відвідувач Антарктиди, саморобні птахівні, 
                 екологічні графіті, ток-шоу та люди у шортах на вулицях в жовтні пов’язані 
@@ -53,7 +53,7 @@
             </article>
             <hr>
             <article>
-                <img src="images/power-shift.jpg" alt="логотип Енергії змін" height="150">
+                <img src="images/power-shift.jpg" alt="логотип Енергії змін">
                 <h3>Енергія змін</h3>
                 <p>Power Shift (Енергія Змін) — це подія, яка об’єднує еколого-енергетичних 
                 активістів і громадські організації всієї країни для обміну знаннями та 
@@ -62,7 +62,7 @@
             </article>
             <hr>
         </section>
-        <section>
+        <section class="contact-info">
             <h2 id="contacts">Контакти</h2>
             <p>Є цікаві ідеї? :) 
             <br>
@@ -76,7 +76,7 @@
                 <br>
                 <input type="submit" value="Надіслати"/>
             </form>
-            <div>
+            <div id="info">
                 <fieldset>
                     <h5>Адреса</h5>
                     <p>бульв. Дружби Народів 14-16</p>
