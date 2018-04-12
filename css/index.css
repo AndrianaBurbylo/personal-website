@@ -9,9 +9,10 @@ header {
     height: 60px;
     display: grid;
     grid-template-columns: 3fr 2fr;
+    justify-content: space-between;
 }
 
-header div {
+#logo-name {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,20 +28,19 @@ h1 {
     margin: 0;
 }
 
-#navigation {
-    padding: 0;
+.navbar {
+    justify-content: flex-end;
 }
 
-#navigation .navbar-nav {
+.navbar-nav {
     width: 100%;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
 }
 
-#navigation a {
-    border: 0px solid;
+.navbar-nav a {
+    border: 1px solid black;
     max-width: 120px;
     border-radius: 25px;
     background-image: linear-gradient( to left, rgb(180, 180, 180), rgb(255, 255, 255));
@@ -51,6 +51,7 @@ h1 {
     color: black;
     font-weight: bold;
     text-align: center;
+    
 }
 
 h2 {
